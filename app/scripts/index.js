@@ -2,9 +2,9 @@ console.log("Hello World!");
 
 var $ = require('jquery');
 
-$('li').hide(); //this is to hide my list items until I need them.
+// $('li').hide(); //this is to hide my list items until I need them.
 
-$('ul').hover( //Use .hover in order to add a class that I can then style within css.
+$('h2').hover( //Use .hover in order to add a class that I can then style within css.
   function(){
     $(this).addClass('hover-background');
   }, function(){
@@ -12,13 +12,22 @@ $('ul').hover( //Use .hover in order to add a class that I can then style within
   }
 );
 
+// $('h2').click(
+//   function(){
+//     $(this).addClass('click-background');
+//   }, function(){
+//     $(this).removeClass('click-background');
+//   };
+// );
+
 // $('ul').click(function{
 //   $('li').slideDown( 'slow', function(){
 //
 //   });
 // });
-$('.my-files').click(function() {
-  $( '#local' ).slideDown( "slow", function() {
-    // Animation complete.
-  });
+var allPanels = $('.accordian li').hide();
+
+$('.accordian ul h2').click(function(){
+  allPanels.slideUp();
+  $(this).nextAll().slideDown();
 });
