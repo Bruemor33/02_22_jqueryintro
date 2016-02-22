@@ -12,6 +12,10 @@ $('h2').hover( //Use .hover in order to add a class that I can then style within
   }
 );
 
+$('h2').click(function(){
+  $(this).addClass('hover-background');
+});
+
 // $('h2').click(
 //   function(){
 //     $(this).addClass('click-background');
