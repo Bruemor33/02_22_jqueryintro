@@ -1,7 +1,9 @@
 
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-$container-large-desktop: 965px;
+$container-large-desktop: 420px;
+$grid-gutter-width: 30px;
+
 
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
@@ -17,7 +19,64 @@ img {
   max-width: 100%;
 }
 
-.accord-style {
-  background-color: #282C35;
+// .accord-style {
+//   background-color: #282C35;
+//   // height: 440px;
+// }
 
+
+/***************************************************************************
+LIST STYLING
+***************************************************************************/
+
+
+
+ul {
+  background-color: #63656A;
+  height: 45px;
+  width: 379px;
+  color: #CCD1DD;
+  font-size: 15px;
+  display: block;
+  position: relative;
+  left: 5px;
+  margin-top: -12px;
+  h2 {
+    padding-top: 5px;
+  }
 }
+
+// .sign-out {
+//   display: block;
+//   position: relative;
+//   left: 55px;
+// }
+
+.hover-background {
+  background-color: #A9BF4F;
+  color: #63656A;
+}
+
+
+
+
+/***************************************************************************
+TBD
+***************************************************************************/
+
+
+
+
+
+
+/***************************************************************************
+TBD
+***************************************************************************/
+
+
+
+
+
+/***************************************************************************
+TBD
+***************************************************************************/
