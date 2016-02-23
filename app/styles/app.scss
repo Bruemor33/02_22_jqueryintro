@@ -40,21 +40,6 @@ LIST STYLING
 
 
 
-// ul {
-//   background-color: #63656A;
-//   height: 45px;
-//   width: 379px;
-//   color: #CCD1DD;
-//   font-size: 15px;
-//   display: block;
-//   position: relative;
-//   left: 5px;
-//   margin-top: -12px;
-//   h2 {
-//     padding-top: 5px;
-//   }
-// }
-
 ul{
   padding-left: 8px;
   padding-right: 8px;
@@ -62,8 +47,12 @@ ul{
 
 li {
   background-color: #71757E;
-  padding-left: 8px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 13px;
   color: #ccd1dd;
+  font-size: 15px;
+
 }
 
 h2 {
@@ -83,15 +72,16 @@ h2 {
     padding-top: 3px;
   }
   &::after{
-    content: "200";
+    content: "870";
     font-size: 15px;
-    margin-left: 190px;
+    margin-left: 197px;
     background-color: #414347;
     width: 200px;
     border: 1px solid #414347;
     border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+
   }
 }
 
@@ -100,6 +90,17 @@ h2 {
     content:"\2709";
     padding-right: 12px;
     padding-top: 3px;
+  }
+  &::after{
+    content: "747";
+    font-size: 15px;
+    margin-left: 233px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
 }
 
@@ -110,10 +111,23 @@ h2 {
     padding-top: 3px;
 
   }
+  &::after{
+    content: "911";
+    font-size: 15px;
+    margin-left: 210px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
 }
 
 li {
   list-style: none;
+  background-color: #A9BF4F;
+  color: #63656A;
 }
 
 // .sign-out {
@@ -132,22 +146,262 @@ li {
 
 
 /***************************************************************************
-TBD
+MY FILES
 ***************************************************************************/
 
 
+.drop-box{
+  font-weight: bold;
+  &::after{
+    content: "120";
+    font-size: 15px;
+    margin-left: 234px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.skydrive{
+  font-weight: bold;
+  &::after{
+    content: "180";
+    font-size: 15px;
+    margin-left: 238px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.ftp-server{
+  font-weight: bold;
+  &::after{
+    content: "150";
+    font-size: 15px;
+    margin-left: 222px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.drop-box2{
+  font-weight: bold;
+  &::after{
+    content: "320";
+    font-size: 15px;
+    margin-left: 234px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.skydrive{
+  font-weight: bold;
+  &::after{
+    content: "100";
+    font-size: 15px;
+    margin-left: 238px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
 
 
 
 
 /***************************************************************************
-TBD
+EMAIL
 ***************************************************************************/
 
 
 
+.dinbox{
+  font-weight: bold;
+  &::after{
+    content: "300";
+    font-size: 15px;
+    margin-left: 259px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.sent{
+  font-weight: bold;
+  &::after{
+    content: "120";
+    font-size: 15px;
+    margin-left: 265px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.junk{
+  font-weight: bold;
+  &::after{
+    content: "222";
+    font-size: 15px;
+    margin-left: 264px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.promotion{
+  font-weight: bold;
+  &::after{
+    content: "105";
+    font-size: 15px;
+    margin-left: 225px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.social{
+  font-weight: bold;
+  &::after{
+    content: "000";
+    font-size: 15px;
+    margin-left: 256px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
 
 
 /***************************************************************************
-TBD
+CLOUD
 ***************************************************************************/
+
+
+
+.connect{
+  font-weight: bold;
+  &::after{
+    content: "001";
+    font-size: 15px;
+    margin-left: 239px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.profiles{
+  font-weight: bold;
+  &::after{
+    content: "050";
+    font-size: 15px;
+    margin-left: 246px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.local{
+  font-weight: bold;
+  &::after{
+    content: "440";
+    font-size: 15px;
+    margin-left: 240px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.hacked{
+  font-weight: bold;
+  &::after{
+    content: "420";
+    font-size: 15px;
+    margin-left: 244px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
+
+.yours{
+  font-weight: bold;
+  &::after{
+    content: "000";
+    font-size: 15px;
+    margin-left: 223px;
+    background-color: #414347;
+    width: 200px;
+    border: 1px solid #414347;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #8D9097;
+  }
+}
